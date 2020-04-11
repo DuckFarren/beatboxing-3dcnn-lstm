@@ -1,3 +1,4 @@
 datasets/
 _tmp/
-.ipynb_checkpoints/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
