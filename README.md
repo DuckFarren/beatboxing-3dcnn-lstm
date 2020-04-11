@@ -15,3 +15,5 @@ After training for 50 epochs, we achieved >95% of validation accuracy.
 
 ### Demo
 ![](images/demo.gif)
+
+We took a multithreaded approach to separate the reading of frames on the webcam from the object detection model, achieving concurrency and parallelism.
