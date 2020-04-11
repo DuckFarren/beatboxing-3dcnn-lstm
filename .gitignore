@@ -1,7 +1,3 @@
-
-*.avi
-*.h5
-*.npy
-datasets
-_tmp
-.ipynb_checkpoints
+datasets/
+_tmp/
+.ipynb_checkpoints/
