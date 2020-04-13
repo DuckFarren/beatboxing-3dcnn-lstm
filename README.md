@@ -3,11 +3,11 @@ This project is a boxing minigame implemented with a self-trained deep learning 
 
 ### Preprocessing
 Due to the limited amount of data we collected, we use the below methods to increase the size of the dataset:
-1. Video Subsampling
+1. Video Subsampling (e.g taking odd number frames/even number frames)
 2. Video Augmentation (Credits to https://github.com/okankop/vidaug)
 ![](images/vidaug.JPG)
 
-The model is taking 24frames for prediction. This number can be reduced during the training process.
+The model is taking 24frames for prediction. This number can be reduced in the training process.
 
 ### Training Result
 After training for 50 epochs, we achieved >95% of validation accuracy.
