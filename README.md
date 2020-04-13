@@ -7,7 +7,7 @@ Due to the limited amount of data we collected, we use the below methods to incr
 2. Video Augmentation (Credits to https://github.com/okankop/vidaug)
 ![](images/vidaug.JPG)
 
-The model is taking 24frames for prediction, so make sure you pass videos with 24frames to train the model.
+The model is taking 24frames for prediction. This number can be reduced during the training process.
 
 ### Training Result
 After training for 50 epochs, we achieved >95% of validation accuracy.
@@ -17,3 +17,9 @@ After training for 50 epochs, we achieved >95% of validation accuracy.
 ![](images/demo.gif)
 
 We took a multithreaded approach to separate the reading of frames on the webcam from the object detection model, achieving concurrency and parallelism.
+
+### Presentation
+[4min presentation video](https://drive.google.com/open?id=1AdlkjEE0CZe0zR6lMfsjTp1nCaj8DZn2)
+
+[Presentation slides](https://drive.google.com/open?id=1Db7DqxLoZQXVJS-kL38dzX-DNYAHqeig)
+
