@@ -1,4 +1,4 @@
-# BeatBoxing - Real time Gesture Recognition
+# BeatBoxing - Low-latency Real time Gesture Recognition
 This project is a boxing minigame implemented with a self-trained deep learning model (3DCNN+LSTM) using OpenCV, Keras/Tensorflow libraries in Python
 
 ### Preprocessing
@@ -16,7 +16,6 @@ After training for 50 epochs, we achieved >95% of validation accuracy.
 ### Demo
 ![](images/demo.gif)
 
-We took a multithreaded approach to separate the reading of frames on the webcam from the object detection model, achieving concurrency and parallelism.
 
 ### Presentation
 [4min presentation video](https://drive.google.com/open?id=1AdlkjEE0CZe0zR6lMfsjTp1nCaj8DZn2)
